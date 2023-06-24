@@ -2,6 +2,13 @@
   height: 300px;
 }
 
-.container {
-  padding-left: 0;
+.card {
+  height: 100%;
+}
+
+@media (max-width: 500px) {
+  .taller-image {
+    max-width: 100%;
+    object-fit: cover;
+  }
 }

@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1, shrink-to-fit=yes"
     />
     <link rel="stylesheet" href="styles.css" />
     <!-- Bootstrap CSS -->
@@ -19,7 +19,7 @@
     <title>Spring Lane Cinemas</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container pr-1 pl-3">
       <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
@@ -53,14 +53,11 @@
         </div>
       </nav>
 
-      <div class="jumbotron jumbotron-fluid bg-info text-center">
+      <div class="jumbotron jumbotron-fluid bg-info text-center pr-0 pl-0">
         <div class="container">
           <h1
-            class="text-uppercase display-4 text-light"
-            style="
-              font-family: 'Times New Roman', Times, serif;
-              font-size: 80px;
-            "
+            class="text-uppercase display-4 text-light text-fit"
+            style="font-family: 'Times New Roman', Times, serif"
           >
             Spring Lane Cinemas
           </h1>
@@ -68,13 +65,13 @@
         </div>
       </div>
 
-      <div class="container pl-0">
+      <div class="container pl-0 pr-0">
         <div class="row">
-          <div class="col-sm">
+          <div class="col-sm mb-3">
             <img class="taller-image" src="Images/sanford Image.jpg" />
           </div>
 
-          <div id="accomodations" class="col-sm">
+          <div id="accomodations" class="col-sm mb-3">
             <h3>Accomodations</h3>
             <p>
               Located in the heart of Sanford North Carolina, Spring lane
@@ -94,19 +91,25 @@
             </p>
           </div>
 
-          <div class="col-sm pl-0">
+          <div class="col-sm mb-4">
             <h3>Now Playing</h3>
             <ul class="list-group">
               <li class="list-group-item">
-                <a class="nav-link" href="#">KONG: SKull Island</a>
+                <a style="font-size: 20px" class="nav-link" href="#"
+                  >KONG: Skull Island</a
+                >
               </li>
 
               <li class="list-group-item">
-                <a class="nav-link" href="#">Ghost in the shell</a>
+                <a style="font-size: 20px" class="nav-link" href="#"
+                  >Ghost in the shell</a
+                >
               </li>
 
               <li class="list-group-item">
-                <a class="nav-link" href="#">Beauty and the beast</a>
+                <a style="font-size: 20px" class="nav-link" href="#"
+                  >Beauty and the beast</a
+                >
               </li>
             </ul>
           </div>
@@ -116,11 +119,11 @@
       <!-- SHOWTIMES -->
 
       <div id="showtimes" class="container">
-        <div class="row">
-          <div class="col-sm-12">
+        <div class="row pr-0 pl-0" style="margin-left: 0">
+          <div class="col-sm-12 pl-0 pr-0">
             <h3>Showtimes:</h3>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-6 col-md-4 mb-4 pl-0 card-box">
             <div class="card h-100">
               <img
                 class="card-img-top img-fluid"
@@ -145,7 +148,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-6 col-md-4 mb-4 pl-0 card-box">
             <div class="card h-100">
               <img
                 class="card-img-top img-fluid"
@@ -170,14 +173,14 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-6 col-md-4 mb-4 pl-0 card-box">
             <div class="card h-100">
               <img
                 class="card-img-top"
                 src="Images/kongskullisland.jpg"
                 alt="Kong: Skull Island"
               />
-              <div class="card-body d-flex flex-column">
+              <div class="card-body d-flex flex-column pb-0">
                 <h5 class="card-title">Kong: Skull Island</h5>
                 <p class="card-text">
                   A team of scientist explore an uncharted isalnd in the
